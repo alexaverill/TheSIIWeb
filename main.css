@@ -51,8 +51,11 @@ div#header li a:hover{
 	margin:50;
 }
 div#content li{
-	display:inline;
+	/*display:inline;*/
 
+}
+#feature_list li{
+	display:inline;
 }
 div#feature_list{
 	width:60%;
@@ -102,6 +105,14 @@ float: left;
   text-align: center;
   line-height: 3em;
 }
+#speech_info li{
+	list-style-type: disc;
+	display:list-item;
+
+}
+
+
+
 table       {
 text-align:center;
 /*width: 480px;*/
