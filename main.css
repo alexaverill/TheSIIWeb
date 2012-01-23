@@ -1,0 +1,139 @@
+body{
+	margin:0;
+	padding:0;
+	background: #E2E2E2;
+	font-family: 'Ubuntu', sans-serif;
+}
+div#wrapper{
+	height:100%;
+	background-color:#e2e2e2;
+}
+div#header{
+	background: url("images/header-image.png");
+	height: 103px;
+	/*font-family: 'Ubuntu', sans-serif;*/
+	display:;
+}
+div#header ul{
+	font-size:1.5em;
+	color:#FFF;	
+	margin: 0;
+}
+div#header li{
+  display: block;
+  height: 3em;
+  margin: 0 3px;
+  padding: 15px 7px;
+  float: left;
+  text-align: center;
+  line-height: 3em;
+}
+div#header li#else{
+    display: block;
+  height: 3em;
+  margin: 0 3px;
+  
+    padding: 0px 7px;
+  
+  float: left;
+  text-align: center;
+  line-height: 3em;
+}
+div#header li a{
+	color:#fff;
+	text-decoration:none;
+}
+div#header li a:hover{
+	color:#fff;
+	text-decoration:underline;
+}
+.text{
+	margin:50;
+}
+div#content li{
+	display:inline;
+
+}
+div#feature_list{
+	width:60%;
+	margin-right:auto;
+	margin-left:auto;
+	
+}
+#three{
+	width: 70%;
+	margin-left: 18%;
+	height: 30%;
+}
+#three a{
+	line-height:1em;
+	margin-left: 18%;
+margin-top:50px;
+	color:#000;
+	text-decoration:none;
+}
+#three a:hover{
+	color:#FFF;
+	text-decoration:none;
+}
+#left {
+width: 30%;
+height: 128px;
+float: left;
+padding-right: 20px;
+}
+#center {
+width: 30%;
+height: 128px;
+float: left;
+padding-right: 20px;
+}
+#right {
+width: 33%;
+height: 128px;
+float: left;
+}
+#center li{
+  display: block;
+  height: 3em;
+  margin: 0 3px;
+  padding: 15px 7px;
+  float: left;
+  text-align: center;
+  line-height: 3em;
+}
+table       {
+text-align:center;
+/*width: 480px;*/
+
+ border-collapse: collapse;
+ padding-left: 10px; padding: 0px 0px 10px 10px; padding: 20px; background-color: #FFF; border: 1px solid #FFF;}
+th          { font-weight: bold; }
+thead th    { background: #c3d9ff; }
+th,td,caption { padding: 1px 1px 2px 2px; padding: 5px 5px 5px 5px;border: 1px solid #141414;}
+/*
+	You can zebra-stripe your tables in outdated browsers by adding 
+	the class "even" to every other table row. */
+ 
+tbody tr:nth-child(even) td, 
+tbody tr.even td  { 
+	background: #E8EDFF; 
+	width:75px;
+}
+ tr.even:hover  { 
+	background-color: #ccc; 
+}
+tfoot       { font-style: italic; }
+caption     { background: #eee; }
+ #search-box,
+ #u1104-3rd-nav {
+	background: #efefef; }
+ #u1104-3rd-nav li {
+	background:none!important; /* Remove important when legacy CSS is deleted. */
+	border-right:1px solid #fff;
+	border-left:1px solid #e6e6e6; }
+#u1104-3rd-nav li:first-child {
+	border-left:none; }
+#u1104-3rd-nav {
+	width:auto;
+	float:none; }
