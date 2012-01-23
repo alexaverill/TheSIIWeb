@@ -28,6 +28,10 @@ div#header li{
   text-align: center;
   line-height: 3em;
 }
+div#header li + li{
+	border-left:solid 1px #6a6a6a;
+
+}
 div#header li#else{
     display: block;
   height: 3em;
