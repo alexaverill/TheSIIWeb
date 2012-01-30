@@ -29,7 +29,8 @@ div#header li{
   line-height: 3em;
 }
 div#header li + li{
-	border-left:solid 1px #6a6a6a;
+	border-left:solid 1px #2f2f2f;
+	height: 68px;
 
 }
 div#header li#else{
@@ -52,30 +53,36 @@ div#header li a:hover{
 	text-decoration:underline;
 }
 .text{
-	margin:50;
+	margin:50px;
+}
+.question{
+	font-weight:bold;
+}
+#icon_center{
+	margin-right:auto;
+	margin-left:auto;
+	width:187px;
+
 }
 div#content li{
 	/*display:inline;*/
-
 }
 #feature_list li{
 	display:inline;
 }
 div#feature_list{
-	width:60%;
-	margin-right:auto;
-	margin-left:auto;
-	
-}
+	width: 70%;
+	margin-left: 15%;
+	height: 30%;
+}	
 #three{
 	width: 70%;
 	margin-left: 18%;
 	height: 30%;
 }
 #three a{
+	position: relative;
 	line-height:1em;
-	margin-left: 18%;
-margin-top:50px;
 	color:#000;
 	text-decoration:none;
 }
@@ -83,39 +90,49 @@ margin-top:50px;
 	color:#FFF;
 	text-decoration:none;
 }
+#three h1{
+	text-align: center;
+}
 #left {
 width: 30%;
-height: 128px;
 float: left;
 padding-right: 20px;
 }
 #center {
+position: relative;
 width: 30%;
-height: 128px;
 float: left;
 padding-right: 20px;
 }
 #right {
 width: 33%;
-height: 128px;
 float: left;
 }
-#center li{
+div#center ul {
+	position: relative;
+	margin: 0;
+	padding: 0;
+}
+div#center li {
   display: block;
-  height: 3em;
-  margin: 0 3px;
-  padding: 15px 7px;
+  position: relative;
+  width: 50%;
+  margin: 0;
   float: left;
   text-align: center;
   line-height: 3em;
+}
+div#center li a {
+	position: relative;
+	margin: 0;
+	padding: 0;
+	line-height: 3em;
 }
 #speech_info li{
 	list-style-type: disc;
 	display:list-item;
 
 }
-
-
 
 table       {
 text-align:center;
