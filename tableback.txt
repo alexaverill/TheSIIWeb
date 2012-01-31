@@ -1,0 +1,78 @@
+
+<br/>
+<br/>
+
+<p>
+There are many people who make up the team at The Synthetic Intellect Institute.
+</p>
+<!-- Table markup-->
+
+<table id="...">
+
+	<!-- Table header -->
+
+		<thead>
+			<tr>
+				<th scope="col" id="">Name</th>
+				<th scope="col" id="">Area of Expertise</th>
+				<th scope="col" id="">Launchpad</th>
+			</tr>
+		</thead>
+
+	<!-- Table footer -->
+
+		<!--<tfoot>
+	        <tr>
+	              <td>...</td>
+	        </tr>
+		</tfoot>-->
+
+
+		<tbody>
+			<tr>
+				<td>Dante Ashton</td>
+				<td></td>
+				<td><a href="https://launchpad.net/~dante-ashton">Danté</a></td>
+			</tr>
+			<tr>
+				<td>Jacky Alcine</td>
+				<td>Lead Developer</td>
+				<td><a href="https://launchpad.net/wintermute">Jacky Alciné</a></td>
+			</tr>
+			<tr>
+				<td>Phill Whiteside</td>
+				<td>Admininstative</td>
+				<td><a href="https://launchpad.net/~phillw">Phill Whiteside</a></td>
+			</tr>
+			<tr>
+				<td>Alex Averill</td>
+				<td>Web</td>
+				<td><a href="https://launchpad.net/~alex-averill">Alex Averill</a></td>
+			</tr>
+			<tr>
+				<td>Benny</td>
+				<td>Web</td>
+				<td><a href="https://launchpad.net/~benny">Ben Donald-Wilsom</a></td>
+			</tr>
+			<tr>
+				<td>Adrian Borucki</td>
+				<td>Core Developer</td>
+				<td><a href="https://launchpad.net/~gentoolx">Adrian Borucki</a></td>
+			</tr>
+			<tr>
+				<td>Islam Bahnasy Farouk</td>
+				<td>Developer</td>
+				<td><a href="https://launchpad.net/~hackedkernel">Islam Farouk Bahnasy</a></td>
+			</tr>
+			<tr>
+				<td>Colby Brown</td>
+				<td>Developer</td>
+				<td></td>
+			</tr>
+		</tbody>
+
+</table>
+
+
+
+</table>
