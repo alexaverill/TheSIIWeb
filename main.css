@@ -3,10 +3,12 @@ body{
 	padding:0;
 	background: #E2E2E2;
 	font-family: 'Ubuntu', sans-serif;
+	
 }
 div#wrapper{
 	height:100%;
 	background-color:#e2e2e2;
+	
 }
 div#header{
 	background: url("images/header-image.png");
@@ -64,8 +66,17 @@ div#header li a:hover{
 	width:187px;
 
 }
+#content{
+	font-size: 1em;
+}
 div#content li{
 	/*display:inline;*/
+}
+div#image_center{
+	width:50%;
+	margin-left:auto;
+	margin-right:auto;
+	
 }
 #feature_list li{
 	display:inline;
@@ -79,6 +90,15 @@ div#feature_list{
 	width: 70%;
 	margin-left: 18%;
 	height: 30%;
+}
+#three_teams{
+	/*width: 70%;*/
+	/*margin-left: 18%;*/
+	/*height: 30%;*/
+}
+.images{
+padding-left:10px;
+
 }
 #three a{
 	position: relative;
@@ -94,11 +114,22 @@ div#feature_list{
 	text-align: center;
 }
 #left {
-width: 30%;
+width: 50%;
 float: left;
 padding-right: 20px;
 }
 #center {
+position: relative;
+/*width: 30%;*/
+float: left;
+padding-right: 20px;
+}
+#left_small {
+width: 30%;
+float: left;
+padding-right: 20px;
+}
+#center_small {
 position: relative;
 width: 30%;
 float: left;
@@ -108,6 +139,61 @@ padding-right: 20px;
 width: 33%;
 float: left;
 }
+#team_title_center{
+width: 39%;
+margin-left: auto;
+margin-right: auto;
+}
+#team_title_center2{
+width: 181px;
+margin-left: auto;
+margin-right: auto;
+}
+#team_title_center4{
+width: 80%;
+margin-left: auto;
+margin-right: auto;
+}
+#team_title_center5{
+width: 70%;
+margin-left: auto;
+margin-right: auto;
+}
+#team_title_center6{
+width: 40%;
+margin-left: auto;
+margin-right: auto;
+}
+#team_title_center1{
+width: 50%;
+margin-left: auto;
+margin-right: auto;
+}
+#trustee{
+
+}
+#three_projects{
+font-size: 1.2em;
+	/*border: 5px solid #fff;*/
+}
+#left_projects{
+width: 30%;
+float: left;
+/*border: 5px solid #fff;*/
+padding-right: 20px;
+}
+#center_projects {
+position: relative;
+width: 30%;
+float: left;
+/*border: 5px solid #fff;*/
+padding-right: 20px;
+}
+#right_projects{
+width: 33%;
+float: left;
+/*border: 5px solid #fff;*/
+}
 div#center ul {
 	position: relative;
 	margin: 0;
@@ -116,7 +202,7 @@ div#center ul {
 div#center li {
   display: block;
   position: relative;
-  width: 50%;
+  /*width: 50%;*/
   margin: 0;
   float: left;
   text-align: center;
@@ -169,3 +255,10 @@ caption     { background: #eee; }
 #u1104-3rd-nav {
 	width:auto;
 	float:none; }
+a{
+color:#4e7af9;
+
+}
+a:hover{
+color:#8eabff;
+}
