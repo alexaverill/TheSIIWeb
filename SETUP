@@ -1,0 +1,4 @@
+Add following rewrite rules to apache config file
+
+RewriteEngine on
+RewriteRule ^/TheSIIWeb/([^.]*)$ /TheSIIWeb/index.php/$1 [last]
