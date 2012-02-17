@@ -1,70 +1,14 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<title>The Synthetic Intellect Institute</title>
-<meta name="description" content="The official homepage for the Synthetic Intellect Institute"/>
-<meta name="keywords" content="AI, Artificial Intelligence, Wintermute, Speech Control, Ubuntu, Synthetic Intellect Institute"/>
-<meta name="robot" content="index,follow"/>
-<meta name="copyright" content="Copyright © 2012 The Synthetic Intellect Institute. All Rights Reserved."/>
-<meta name="author" content="TheSII web team"/>
-<meta name="language" content="English"/>
-<link href="main.css" rel="stylesheet" />
-<link href='http://fonts.googleapis.com/css?family=Ubuntu:300' rel='stylesheet' type='text/css'/>
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" type="text/javascript"></script>
-		<script type="text/javascript" src="jquery.featureList-1.0.0.js"></script>
-		<script type="text/javascript">
-		$(document).ready(function() {
-		$('#winty_info').hide();
-		$('#speech_info').hide();
-		$('#aleph_info').hide();
-		$('#winty_but').click(function() {
-			$('#winty_info').toggle('medium', function() {
-			// Animation complete.
-			});
-		});
-		$('#aleph_but').click(function() {
-			$('#aleph_info').toggle('medium', function() {
-			// Animation complete.
-			});
-		});
-		$('#speech_but').click(function() {
-			$('#speech_info').toggle('medium', function() {
-			// Animation complete.
-			});
-		});
-			/*$(document).ready(function() {
-				$.featureList(
-					$("#tabs li a"),
-					$("#output li"), {
-						start_item: 0
-					}
-				);*/
-			});
-		</script>
-</head>
+<?php require_once('head.html'); ?>
 <body>
 <div id="wrapper">
-<div id="header">
-<ul>
-<li id="else"><a href="index.html"><img src="images/header-logo-new.png" alt="thesii logo" id="logo"/></a></li>
-<!--<li><img src="themes/simplethesii/images/header-logo.png" alt="thesii logo"/>-->
-<!--<li id="title"><a href="#">Synthetic Intellect Institute</a></li>-->
-<li><a href="team.html" >The Team</a></li>
-<li><a href="purpose.html" >Our Purpose</a></li>
-<li><a href="projects.html" >Projects</a></li>
-<li><a href="news.html" >News</a></li>
-<li><a href="contact.html" >Contact</a></li>
-
-</ul>
-</div>
+  <?php require_once('header.html') ;?>
 <div id ="content">
 <div class="text">
 <div id="three">
 <div id="right">
 </div>
 <div id="icon_center">
-<img src="images/wmlogo.png" height="187" width="180" alt="wintermute" id="winty_but"/>
+<img src="static/images/wmlogo.png" height="187" width="180" alt="wintermute" id="winty_but"/>
 </div>
 <div class="question">Q: What is Wintermute?</div>
 
@@ -115,3 +59,34 @@ A: You can join us on #sii on IRC in the Freenode network for a chat with the te
 </div>
 </body>
 </html>
+
+<script type="text/javascript">
+		$(document).ready(function() {
+		$('#winty_info').hide();
+		$('#speech_info').hide();
+		$('#aleph_info').hide();
+		$('#winty_but').click(function() {
+			$('#winty_info').toggle('medium', function() {
+			// Animation complete.
+			});
+		});
+		$('#aleph_but').click(function() {
+			$('#aleph_info').toggle('medium', function() {
+			// Animation complete.
+			});
+		});
+		$('#speech_but').click(function() {
+			$('#speech_info').toggle('medium', function() {
+			// Animation complete.
+			});
+		});
+			/*$(document).ready(function() {
+				$.featureList(
+					$("#tabs li a"),
+					$("#output li"), {
+						start_item: 0
+					}
+				);*/
+			});
+		</script>
+
